@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio_Project - Red-Rim</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="main-header">
+        <h1>Welcome to My Portfolio</h1>
+        <h2>Salma Ouakhir - Full-Stack Developer</h2>
+     
+      </header>
+
+    <header class="navbar">
+        <nav>
+            <ul>
+                <li><a href="#home">🏠 Home</a></li>
+                <li><a href="#about">🧑‍💼 About</a></li>
+                <li><a href="#work">🎨 Work</a></li>
+                <li><a href="#resume">📜 Resume</a></li>
+                <li><a href="#contact">📬 Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <section id="home" class="home">
+        <h1>Welcome to My Creative Universe!</h1>
+        <p>Scroll down to explore!</p>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <p>I am a passionate creator, bringing ideas to life with code and design.</p>
+            <video src="Images/video.mp4" autoplay muted loop></video>
+        </div>
+    </section>
+
+  
+    <section id="work" class="work">
+        <h2>My Creative Work</h2>
+        <div class="work-gallery">
+            <div class="work-item">
+                <div class="overlay"> <h3>Project 1 - Photo Gallery Project: A responsive, Pinterest-style gallery with visually engaging image layouts and seamless navigation</h3></div>
+                <img src="Images/image1.jpg" alt="Project 1">
+            </div>
+            <div class="work-item">
+                <div class="overlay"><h3>Project 2 - Anime Verse Project: A dynamic anime character gallery showcasing popular figures with interactive overlays and character details</h3></div>
+            </div>
+                <img src="Images/image2.jpg" alt="Project 2">
+                
+        </div>
+    </section>
+
+    <section id="journey">
+        <h2>My Journey</h2>
+        
+        <div class="year">
+          <h3>2023-2024</h3>
+          <p>
+            I completed a transformative year with the ALX program, earning my certification in Software Engineering with a specialization in backend development. This experience not only deepened my technical expertise but also solidified my passion for building robust, scalable applications.
+          </p>
+        </div>
+        
+        <div class="year">
+          <h3>2024-2025</h3>
+          <p>
+            Continuing my journey, I joined GoMyCode to further expand my skills in web development. This formation is enhancing my frontend and backend knowledge, preparing me to build full-stack applications with a modern approach and hands-on experience.
+          </p>
+        </div>
+      </section>
+      
+    <section id="contact" class="contact">
+        <h2>Get in Touch!</h2>
+        <form action="submit-form" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="your name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Write something" required></textarea>
+
+            <button type="submit">Send Message 📬</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>Connect with me on social media</p>
+        <div class="social-icons">
+            <a href="https://github.com/Red-Rim">GitHub</a> |
+            <a href="https://www.linkedin.com/in/salma-ouakhir/">LinkedIn</a> |
+            <a href="https://x.com/RedRim20">Twitter</a>
+        </div>
+        <p>&copy; 2024 Red-Rim</p>
+    </footer>
+
+</body>
+</html>
