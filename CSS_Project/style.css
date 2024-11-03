@@ -68,12 +68,12 @@ h2 {
     overflow: hidden;
 }
 
-
 .work-item img {
     width: 100%;
     height: auto;
     border-radius: 8px;
 }
+
 .overlay {
     position: absolute;
     top: 0;
