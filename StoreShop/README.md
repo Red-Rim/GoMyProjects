@@ -1,0 +1,1 @@
+**StoreShop**: Responsive anime store landing page with tailwind CSS, featuring a header, product cards, and footer optimized for mobile
