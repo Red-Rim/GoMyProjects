@@ -1,0 +1,1 @@
+**AnimeVerse** : A responsive anime blog featuring character spotlights, trending episodes, and a newsletter subscription
