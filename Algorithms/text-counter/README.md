@@ -1,0 +1,1 @@
+A simple algorithm to calculate the length, word count, and vowel count of a sentence
