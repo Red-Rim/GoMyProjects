@@ -1,0 +1,26 @@
+start 
+    length ← 0  
+    word_numb ← 0  
+    vowel_numb ← 0  
+    previous_char ← null
+
+    while character ≠ '.' :  
+        length ← length + 1  
+
+        if character in ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']:  
+            vowel_numb ← vowel_numb + 1  
+
+        if character ≠ ' ' and (previous_char = ' ' or previous_char is null):  
+            word_numb ← word_numb + 1  
+
+        previous_char ← character
+    end while
+
+
+   //output 
+
+    print "length of sentence: ", length  
+    print "numb of words: ", word_numb  
+    print "numb of vowels: ", vowel_numb  
+
+end
