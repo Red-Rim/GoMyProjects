@@ -1,0 +1,1 @@
+**Insertion sort algo:** A simple javascript implementation of insertion sort to arrange array elements in ascending order
