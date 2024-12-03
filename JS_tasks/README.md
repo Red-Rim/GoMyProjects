@@ -1,1 +1,1 @@
-**sJavaScript** exercises focused on basic programming concepts and problem-solving
+**JavaScript** exercises focused on basic programming concepts and problem-solving
