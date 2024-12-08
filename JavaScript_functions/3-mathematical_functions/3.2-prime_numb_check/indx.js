@@ -7,4 +7,5 @@ function prime(n) {
    }
    return true;
 }
+
  console.log(prime(7));

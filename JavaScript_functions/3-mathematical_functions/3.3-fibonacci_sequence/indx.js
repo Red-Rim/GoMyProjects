@@ -12,4 +12,5 @@ function fibonacci(n) {
    return result;
 }
 
+
 console.log(fibonacci(5));
