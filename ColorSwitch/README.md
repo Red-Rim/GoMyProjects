@@ -1,0 +1,1 @@
+**ColorSwitch**: A simple JavaScript project that changes the background of a box to a random color on button click
