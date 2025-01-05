@@ -1,0 +1,1 @@
+This project demonstrates basic MongoDB CRUD operations on a "contactlist" collection in the "contact" database
