@@ -1,0 +1,1 @@
+**Mongoose & NodeJS VS MongoDB** : In this checkpoint, we will use Mongoose to connect to a MongoDB database and perform CRUD operations on a Person schema
