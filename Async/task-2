@@ -1,0 +1,8 @@
+async function awaitCall() {
+    const response = await new Promise(resolve => 
+        setTimeout(() => resolve({ data: { name: "unknown", alive: true } }), 2000)
+    );
+    console.log("data received:", response.data);
+}
+
+awaitCall();
