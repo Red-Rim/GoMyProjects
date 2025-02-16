@@ -1,0 +1,9 @@
+async function awaitCallWithErrorHandling() {
+    try {
+        await new Promise((_, reject) => setTimeout(() => reject(new Error("failed to fetch data")), 2000));
+    } catch (error) {
+        console.error("Error:", error.message);
+    }
+}
+
+awaitCallWithErrorHandling();
